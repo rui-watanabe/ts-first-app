@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rui-watanabe/ts-first-app/issues"
   },
-  "homepage": "https://github.com/rui-watanabe/ts-first-app#readme"
+  "homepage": "https://github.com/rui-watanabe/ts-first-app#readme",
+  "devDependencies": {
+    "typescript": "^3.7.5"
+  }
 }
