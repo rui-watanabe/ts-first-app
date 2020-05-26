@@ -52,7 +52,8 @@ let unionTypes: (number | string)[] = [10, 'hello'];
 const apple: 'apple' = 'apple';
 
 // similar enum 
-let clothSize: 'small' | 'medium' | 'large' = 'large';
+type ClothSize = 'small' | 'medium' | 'large';
+let clothSize: ClothSize = 'large';
 const cloth: {
   color: string;
   size: 'small' |  'medium' | 'large'
