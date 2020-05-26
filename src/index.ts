@@ -24,4 +24,6 @@ const person: {
   age: 21
 }
 
-console.log(person.name);
+const fruits: string[] = ['Apple', 'Banana', 'Grape'];
+
+console.log(person);
