@@ -98,6 +98,19 @@ doubleAndHandle(32, doubleNum => {
   return doubleNum;
 });
 
+let unknownInput: unknown;
+let hoge: any;
+let text: string;
+unknownInput = 'hello';
+// error
+// text = unknownInput;
+text = hoge;
+
+// not error
+if(typeof unknownInput === 'string'){
+  unknownInput
+}
+
 
  
 
