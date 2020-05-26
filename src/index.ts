@@ -46,5 +46,20 @@ coffee.size = CoffeeSize.SHORT;
 
 let unionType: number | string = 10;
 unionType = 'hello';
-let unionTypes: (number | string)[] = [10, 'hello']
+let unionTypes: (number | string)[] = [10, 'hello'];
+
+// let = string-type, const = literal-type
+const apple: 'apple' = 'apple';
+
+// similar enum 
+let clothSize: 'small' | 'medium' | 'large' = 'large';
+const cloth: {
+  color: string;
+  size: 'small' |  'medium' | 'large'
+} = {
+  color: 'white',
+  size: 'medium'
+}
+
+ 
 
