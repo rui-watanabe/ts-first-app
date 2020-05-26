@@ -44,4 +44,7 @@ const coffee = {
 
 coffee.size = CoffeeSize.SHORT;
 
+let unionType: number | string = 10;
+unionType = 'hello';
+let unionTypes: (number | string)[] = [10, 'hello']
 
