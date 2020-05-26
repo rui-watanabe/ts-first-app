@@ -29,3 +29,19 @@ const fruits: string[] = ['Apple', 'Banana', 'Grape'];
 const book: [string, number, boolean] = ['business', 1600, false]
 // can push
 book.push(21);
+
+enum CoffeeSize {
+  SHORT,
+  TALL = 'TALL',
+  GRANDE = 1,
+  VENTI
+}
+
+const coffee = {
+  hot: true,
+  size: CoffeeSize.TALL
+}
+
+coffee.size = CoffeeSize.SHORT;
+
+
