@@ -81,6 +81,14 @@ function sayHello2(): undefined {
 let tmp: undefined = undefined;
 let tmp2: null = null;
 
+// types can leave either one
+const anotherAdd: (n1: number, n2: number) => number = function (n1: number, n2: number) {
+  return n1 + n2;
+};
+anotherAdd(2, 2);
+
+const doubleNumber: (number: number) => number = num => num * number;
+
 
  
 
