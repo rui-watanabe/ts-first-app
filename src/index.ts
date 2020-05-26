@@ -77,5 +77,10 @@ function sayHello2(): undefined {
   console.log('hello');
   return;
 }
+
+let tmp: undefined = undefined;
+let tmp2: null = null;
+
+
  
 
