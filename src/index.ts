@@ -26,4 +26,6 @@ const person: {
 
 const fruits: string[] = ['Apple', 'Banana', 'Grape'];
 
-console.log(person);
+const book: [string, number, boolean] = ['business', 1600, false]
+// can push
+book.push(21);
