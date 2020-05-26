@@ -67,5 +67,15 @@ function add(num1: number, num2: number): number {
 }
 add(3, 2)
 
+// can use void, any
+function sayHello(): void {
+  console.log('hello');
+}
+
+// can use undefined, void, any
+function sayHello2(): undefined {
+  console.log('hello');
+  return;
+}
  
 
