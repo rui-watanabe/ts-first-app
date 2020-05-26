@@ -87,7 +87,16 @@ const anotherAdd: (n1: number, n2: number) => number = function (n1: number, n2:
 };
 anotherAdd(2, 2);
 
-const doubleNumber: (number: number) => number = num => num * number;
+const doubleNumber: (number: number) => number = num => num * num;
+
+function doubleAndHandle(num: number, cb: (num: number) => number): void {
+  const doubleNum = cb(num * 2)
+  console.log(doubleNum);
+}
+
+doubleAndHandle(32, doubleNum => {
+  return doubleNum;
+});
 
 
  
